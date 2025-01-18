@@ -1,8 +1,8 @@
 pipeline{
   agent any
   environment{
-    name: "Aniket"
-    surname: "Bhavsar"
+    name = "Aniket"
+    surname = "Bhavsar"
   }
   stages{
     stage("Print name"){
