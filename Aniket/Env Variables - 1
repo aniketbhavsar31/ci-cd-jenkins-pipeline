@@ -7,7 +7,7 @@ pipeline{
   stages{
     stage("Print name"){
       steps{
-      echo "My name is ${env.name} ${env.bhavsar}"
+      echo "My name is ${env.name} ${env.surname}"
       }
     }
   }
