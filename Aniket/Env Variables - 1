@@ -6,10 +6,10 @@ pipeline{
     test = "This is test"
   }
   stages{
-    environment{
-      test1 = "This is test1"
-    }
     stage("Print name"){
+          environment{
+            test1 = "This is test1"
+            }
       steps{
       echo "My name is ${env.name} ${env.surname}"
       echo "This is ${env.test} and ${env.test1}"
