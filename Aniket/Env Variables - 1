@@ -1,0 +1,14 @@
+pipeline{
+  agent any
+  environment{
+    name: "Aniket"
+    surname: "Bhavsar"
+  }
+  stages{
+    stage(Print name){
+      step{
+      echo "My name is ${env.name} ${env.bhavsar}"
+      }
+    }
+  }
+}
