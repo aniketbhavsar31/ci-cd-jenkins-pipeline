@@ -3,6 +3,7 @@ pipeline{
   environment{
     name = "Aniket"
     surname = "Bhavsar"
+    test = "This is test"
   }
   stages{
     stage("Print name"){
