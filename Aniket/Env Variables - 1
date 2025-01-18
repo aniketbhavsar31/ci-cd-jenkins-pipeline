@@ -6,7 +6,7 @@ pipeline{
   }
   stages{
     stage("Print name"){
-      step{
+      steps{
       echo "My name is ${env.name} ${env.bhavsar}"
       }
     }
