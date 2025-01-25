@@ -11,7 +11,7 @@ pipeline {
         steps {
                 echo "Hello there!"
                 sleep 5
-                echo "Oops! I fell asleep for a couple seconds!"'''
+                echo "Oops! I fell asleep for a couple seconds!"
             }
         }
 
@@ -23,7 +23,7 @@ options {
             steps {
                 echo "Hello there!"
                 sleep 5
-                echo "Oops! I fell asleep for a couple seconds!"'''
+                echo "Oops! I fell asleep for a couple seconds!"
             }
         }
 
