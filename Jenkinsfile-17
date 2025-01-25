@@ -9,7 +9,7 @@ pipeline {
         timeout(time: 6, unit: 'SECONDS')
     }
         steps {
-                sh '''echo "Hello there!"
+                echo "Hello there!"
                 sleep 5
                 echo "Oops! I fell asleep for a couple seconds!"'''
             }
@@ -21,7 +21,7 @@ options {
         timeout(time: 6, unit: 'SECONDS')
     }
             steps {
-                sh '''echo "Hello there!"
+                echo "Hello there!"
                 sleep 5
                 echo "Oops! I fell asleep for a couple seconds!"'''
             }
